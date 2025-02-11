@@ -60,7 +60,6 @@ My skill set spans across multiple domains, with expertise in:
 ## Leadership Experience
 
 Throughout my career, I have taken on leadership roles in various capacities:
-- **BITS Pilani Placement Division** – Managed recruitment for over 1,200 students, negotiating between companies and students to ensure a seamless hiring process.
+- **Co-Founder & Partner - JM3J Domestic Combustion Equipments** - Helped build a waste management startup that helps manage domestic waste at low cost.
+- **Placement Coordinator - BITS Pilani Placement Division** – Managed recruitment for over 1,200 students, negotiating between companies and students to ensure a seamless hiring process.
 - **Treasurer & Event Organiser** – Oversaw financial operations for large-scale university events, managing cash transactions and budgeting.
-- **cargo.one** – Led the restructuring of the customer service team, optimising workflows and improving operational efficiency.
-- **Consulting & Strategy Roles** – Worked with startups and large enterprises to implement AI-driven solutions, advising on strategy and execution.
