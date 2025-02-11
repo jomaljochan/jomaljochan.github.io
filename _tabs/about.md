@@ -6,10 +6,10 @@ order: 1
 
 # Jomal Jochan
 
+I'm Jomal and I like to describe myself as a curious mind looking out into the world, asking myself how I can best serve humanity.
+
 ![About](assets/images/about_me.jpeg)
 
-
-I'm Jomal and I like to describe myself as a creative problem solver who grew up in India & Oman.
 
 I was born and raised in India & Oman. First born son of a Government employee and a retired teacher, I was always encouraged to read, learn and explore during my childhood. From this conditioning, I fell in love with travelling - travelling solo to the corners of India; my culturally and geographically diverse home country, gave me the peace of mind and confidence to look further outward. Backpacking through the vast swathes of land and cultures of India is what I would suggest to any aspiring traveler looking to get lost among the mountains, rivers and beaches.
 
