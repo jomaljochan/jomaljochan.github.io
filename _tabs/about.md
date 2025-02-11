@@ -28,6 +28,18 @@ In August 2022, I embarked on an exciting journey to London, one of the world’
 
 ---
 
+## Values
+
+The three guiding values that I stand by are:
+
+- **Curiosity** – Everything I am stems from a deep-seated curiosity about the world—constantly asking *why?* and *why not?* in every aspect of my life. This is my passion, and I will stop at nothing to pursue my innate need to explore and wonder.
+- **Freedom** – The freedom to truly be myself is a principle I live by. I believe values are internal, and I will always strive to be my most authentic self.
+- **Connection** – As humans, we are nothing without genuine connection. With curiosity and freedom, I seek to build meaningful relationships with both like-minded and diverse individuals.
+
+This is my motivation to build impactful tools and systems that enable the world to flourish into a better future.
+
+---
+
 ## Motivations and Goals
 
 My core motivation is to bridge the gap between AI research and real-world business applications. I am particularly interested in:
