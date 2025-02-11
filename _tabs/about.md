@@ -51,11 +51,10 @@ My core motivation is to bridge the gap between AI research and real-world busin
 ## Skills
 
 My skill set spans across multiple domains, with expertise in:
-- **Data Science & AI** – Machine learning, neural networks, and natural language understanding.
-- **Business Strategy & Analytics** – Leveraging data for decision-making, process optimisation, and growth analytics.
-- **Consulting & Leadership** – Managing cross-functional teams, stakeholder engagement, and driving AI transformation in businesses.
-- **Technical Proficiency** – Python, SQL, data visualisation, and AI model deployment.
-- **Product & Market Understanding** – Experience in B2B SaaS, financial services, and AI-driven business models.
+- **Product & Market Understanding** – Experience in B2B SaaS, financial services, and AI-first business models.
+- **Soft skills** - Cross-Functional Collaboration, Program Management, Change Management, Stakeholder Management, Leadership, Problem Solving, Data Storytelling, Data-Driven Decision Making, Process Improvement, Data Insights Communication
+- **Technical Proficiency** – Google Sheets, Microsoft Excel \& Powerpoint, Pitchbook, AWS, Salesforce (Flow, Admin), Jira, HubSpot, Apollo, Tableau, PowerBI, Looker, RStudio, SQL, Hadoop, Python, Gurobi
+- **Data Science** - Artificial Intelligence, Generative AI, Machine Learning, Neural Networks, Data Engineering, Deep Learning, Predictive Modelling, Feature Engineering, Time Series, NLP, Statistical Analysis, Data Visualisation, Data Warehousing, ETL
 
 ## Leadership Experience
 
