@@ -6,23 +6,58 @@ order: 1
 
 # Jomal Jochan
 
-I'm Jomal and I like to describe myself as a curious mind looking out into the world, asking myself how I can best serve humanity.
+I'm Jomal, a technologist, strategist, and lifelong learner driven by a fascination with data, artificial intelligence, and its potential to shape the future. My journey spans multiple industries, geographies, and roles—each shaping my perspective and reinforcing my passion for technology and problem-solving.
 
 ![About](assets/images/about_me.jpeg)
 
+## Early Years and Global Influence
 
-I was born and raised in India & Oman. First born son of a Government employee and a retired teacher, I was always encouraged to read, learn and explore during my childhood. From this conditioning, I fell in love with travelling - travelling solo to the corners of India; my culturally and geographically diverse home country, gave me the peace of mind and confidence to look further outward. Backpacking through the vast swathes of land and cultures of India is what I would suggest to any aspiring traveler looking to get lost among the mountains, rivers and beaches.
+I was born and raised between India and Oman, the firstborn son of a government employee and a retired teacher. My childhood was filled with books, exploration, and curiosity about the world. Travel became a defining aspect of my life—solo backpacking across the vast and diverse landscapes of India instilled in me a deep appreciation for cultural nuance, adaptability, and the ability to navigate the unknown. These experiences cultivated a mindset of resilience and openness, values that continue to guide me today.
 
-## Early life in Oman
+## Life in Oman
 
-My time in Oman has been a blur for the most part. As this was during the formative years of my childhood, it is a big part of who I am. My family considered our stay in Oman as an extended vacation, travelling across the countries of the middle east every chance we got. Oman, UAE, Saudi Arabia and Yemen; countries with varied cultures and wildly different government systems and backgrounds, through these trips, I learned how good and how cruel the world can be.
+Oman played a formative role in shaping my worldview. My family saw our time there as an extended adventure, seizing every opportunity to travel across the Middle East. From the bustling streets of the UAE to the rich history of Saudi Arabia and the untouched landscapes of Yemen, I gained firsthand insights into different cultures, governance models, and ways of life. These early encounters with diversity shaped my ability to connect with people from all backgrounds and understand the broader global context.
 
 ## Back in India
 
-The one word that could describe my time in India would be Friends. Through my final high school years, undergrad and my 2 years of working, the highlight was always the people I was with. This was a time when I connected, got lost, heart-broken, got confident again and learned to tread the world with no regrets. I am happy to say that after this roller-coaster ride, I am left with a handful of real friends I can lean on at any point in time.
+India, for me, is synonymous with friendships, growth, and discovery. My final years of high school, undergraduate studies, and early professional life were filled with moments of learning, challenge, and self-discovery. I pursued Civil Engineering at BITS Pilani, Hyderabad, and graduated in 2020. While engineering provided a strong analytical foundation, it was during this time that I explored my passion for data, technology, and business strategy. My experiences in analytics and leadership began here, setting me on the path I follow today.
 
-To do my undergrad in Civil Engineering, I enrolled myself to BITS Pilani University and graduated in 2020. During my 4 years in Hyderabad, I explored many different career options & passions which finally led me to a satisfying career in analytics & leadership.
+## A New Chapter in London
 
-## New journey in London
+In August 2022, I embarked on an exciting journey to London, one of the world’s foremost financial and technological hubs. My goal is to bring my expertise in data science, AI, and business strategy to an international stage, learning from diverse perspectives and making a tangible impact in the evolving world of AI and technology. My professional experience spans roles in banking, consulting, and AI-driven SaaS, where I have applied data science and machine learning to drive business transformation.
 
-From August 2022, I have started on a new adventure in the financial capital of the world, London. I wish to be able to take my experiences and add an international outlook; fresh perspectives and new cultures which will help me grow to achieve my full potential.
+---
+
+## Motivations and Goals
+
+My core motivation is to bridge the gap between AI research and real-world business applications. I am particularly interested in:
+- **AI Strategy & Implementation** – Helping organisations integrate AI-driven solutions that drive efficiency and innovation.
+- **Scalability & Impact** – Working on AI products that can scale globally while delivering meaningful change.
+- **Continuous Learning & Thought Leadership** – Staying at the forefront of AI advancements, sharing insights, and contributing to discussions on responsible AI.
+- **Entrepreneurial Mindset** – Exploring opportunities to build or support ventures that push the boundaries of AI adoption.
+
+## Skills
+
+My skill set spans across multiple domains, with expertise in:
+- **Data Science & AI** – Machine learning, neural networks, and natural language understanding.
+- **Business Strategy & Analytics** – Leveraging data for decision-making, process optimisation, and growth analytics.
+- **Consulting & Leadership** – Managing cross-functional teams, stakeholder engagement, and driving AI transformation in businesses.
+- **Technical Proficiency** – Python, SQL, data visualisation, and AI model deployment.
+- **Product & Market Understanding** – Experience in B2B SaaS, financial services, and AI-driven business models.
+
+## Leadership Experience
+
+Throughout my career, I have taken on leadership roles in various capacities:
+- **BITS Pilani Placement Division** – Managed recruitment for over 1,200 students, negotiating between companies and students to ensure a seamless hiring process.
+- **Treasurer & Event Organiser** – Oversaw financial operations for large-scale university events, managing cash transactions and budgeting.
+- **cargo.one** – Led the restructuring of the customer service team, optimising workflows and improving operational efficiency.
+- **Consulting & Strategy Roles** – Worked with startups and large enterprises to implement AI-driven solutions, advising on strategy and execution.
+
+---
+
+This version better reflects your current experiences, aspirations, and expertise. Now, considering your goal of attracting recruiters and AI professionals, we should also highlight:
+1. **Your AI and ML thought leadership efforts** – Are you writing articles, speaking at events, or contributing to AI communities?
+2. **Your unique value proposition** – Why should an AI recruiter or industry expert connect with you? What makes your approach different?
+3. **Future ambitions** – Do you want to build your own AI product, work with specific industries, or contribute to ethical AI?
+
+Would you like to incorporate these into the About section, or should we add a separate page for professional insights and thought leadership?
