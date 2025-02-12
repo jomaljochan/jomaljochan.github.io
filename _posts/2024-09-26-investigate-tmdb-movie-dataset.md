@@ -649,7 +649,7 @@ sns.set_style("whitegrid")
 
 
     
-![png](/assets/images/2025/output_23_1.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_23_1.png)
     
 
 
@@ -830,7 +830,7 @@ sns.set_style("darkgrid")
 
 
     
-![png](/assets/images/2025/output_29_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_29_0.png)
     
 
 
@@ -984,7 +984,7 @@ sns.set_style("darkgrid")
 
 
     
-![png](/assets/images/2025/output_32_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_32_0.png)
     
 
 
@@ -1137,7 +1137,7 @@ sns.set_style("darkgrid")
 
 
     
-![png](/assets/images/2025/output_36_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_36_0.png)
     
 
 
@@ -1297,7 +1297,7 @@ sns.set_style("darkgrid")
 
 
     
-![png](/assets/images/2025/output_40_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_40_0.png)
     
 
 
@@ -1453,7 +1453,7 @@ sns.set_style("darkgrid")
 
 
     
-![png](/assets/images/2025/output_44_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_44_0.png)
     
 
 
@@ -1478,7 +1478,7 @@ sns.set_style("whitegrid")
 
 
     
-![png](/assets/images/2025/output_46_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_46_0.png)
     
 
 
@@ -1508,7 +1508,7 @@ sns.set_style("whitegrid")
 
 
     
-![png](/assets/images/2025/output_49_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_49_0.png)
     
 
 
@@ -1537,7 +1537,7 @@ sns.set_style("whitegrid")
 
 
     
-![png](/assets/images/2025/output_52_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_52_0.png)
     
 
 
@@ -1576,7 +1576,7 @@ print("Correlation Between Revenue And Budget : ",data_corr.loc['revenue','budge
 
 
     
-![png](/assets/images/2025/output_55_1.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_55_1.png)
     
 
 
@@ -1602,7 +1602,7 @@ print("Correlation Between Release Year And Vote Average : ",data_corr.loc['rele
 
 
     
-![png](/assets/images/2025/output_56_1.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_56_1.png)
     
 
 
@@ -1630,7 +1630,7 @@ print("Correlation Between Popularity And Profit : ",data_corr.loc['popularity',
 
 
     
-![png](/assets/images/2025/output_57_1.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_57_1.png)
     
 
 
@@ -1669,7 +1669,7 @@ sns.set_style("darkgrid")
 
 
     
-![png](/assets/images/2025/output_60_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_60_0.png)
     
 
 
@@ -1704,7 +1704,7 @@ sns.set_style("darkgrid")
 
 
     
-![png](/assets/images/2025/output_62_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_62_0.png)
     
 
 
@@ -1737,7 +1737,7 @@ sns.set_style("whitegrid")
 
 
     
-![png](/assets/images/2025/output_65_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_65_0.png)
     
 
 
@@ -1763,7 +1763,7 @@ plt.tight_layout()
 
 
     
-![png](/assets/images/2025/output_66_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_66_0.png)
     
 
 
@@ -1991,7 +1991,7 @@ sns.set_style("whitegrid")
 
 
     
-![png](/assets/images/2025/output_72_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_72_0.png)
     
 
 
@@ -2025,7 +2025,7 @@ popular_genre.loc['Crime'].plot(label = "Crime",color='c',ax = ax[2][2],legend=T
 
 
     
-![png](/assets/images/2025/output_73_1.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_73_1.png)
     
 
 
@@ -2050,7 +2050,7 @@ sns.set_style("whitegrid")
 
 
     
-![png](/assets/images/2025/output_75_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_75_0.png)
     
 
 
@@ -2071,7 +2071,7 @@ sns.set_style("whitegrid")
 
 
     
-![png](/assets/images/2025/output_77_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_77_0.png)
     
 
 
@@ -2115,7 +2115,7 @@ sns.set_style("whitegrid")
 
 
     
-![png](/assets/images/2025/output_80_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_80_0.png)
     
 
 
@@ -2139,7 +2139,7 @@ sns.set_style("whitegrid")
 
 
     
-![png](/assets/images/2025/output_82_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_82_0.png)
     
 
 
@@ -2252,7 +2252,7 @@ sns.set_style("whitegrid")
 
 
     
-![png](/assets/images/2025/output_85_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_85_0.png)
     
 
 
@@ -2272,7 +2272,7 @@ plot_correlation_map(reader[['popularity','budget','revenue','runtime','vote_cou
 
 
     
-![png](/assets/images/2025/output_87_0.png)
+![png](/assets/images/2024/2024-09-26-investigate-tmdb-movie-dataset/output_87_0.png)
     
 
 
