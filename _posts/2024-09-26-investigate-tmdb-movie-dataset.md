@@ -2117,7 +2117,7 @@ sns.set_style("whitegrid")
 
 
     
-![png](output_80_0.png)
+![png](/assets/images/2025/output_80_0.png)
     
 
 
@@ -2254,7 +2254,7 @@ sns.set_style("whitegrid")
 
 
     
-![png](output_85_0.png)
+![png](/assets/images/2025/output_85_0.png)
     
 
 
