@@ -534,7 +534,7 @@ sum(reader.duplicated())
 
 
 
-    1
+1
 
 
 
@@ -837,8 +837,8 @@ reader['budget'] = reader['budget'].replace(0,np.NAN)
 find_minmax('budget')
 ```
 
-    Movie Which Has Highest budget :  The Warrior's Way
-    Movie Which Has Lowest budget  :  Fear Clinic
+Movie Which Has Highest budget :  The Warrior's Way
+Movie Which Has Lowest budget  :  Fear Clinic
 
 
 
@@ -988,8 +988,8 @@ sns.set_style("darkgrid")
 find_minmax('revenue')
 ```
 
-    Movie Which Has Highest revenue :  Avatar
-    Movie Which Has Lowest revenue  :  Wild Card
+Movie Which Has Highest revenue :  Avatar
+Movie Which Has Lowest revenue  :  Wild Card
 
 
 
@@ -1144,8 +1144,8 @@ reader['runtime'] = reader['runtime'].replace(0,np.NAN)
 find_minmax('runtime')
 ```
 
-    Movie Which Has Highest runtime :  The Story of Film: An Odyssey
-    Movie Which Has Lowest runtime  :  Fresh Guacamole
+Movie Which Has Highest runtime :  The Story of Film: An Odyssey
+Movie Which Has Lowest runtime  :  Fresh Guacamole
 
 
 
@@ -1301,8 +1301,8 @@ sns.set_style("darkgrid")
 find_minmax('vote_average')
 ```
 
-    Movie Which Has Highest vote_average :  The Story of Film: An Odyssey
-    Movie Which Has Lowest vote_average  :  Transmorphers
+Movie Which Has Highest vote_average :  The Story of Film: An Odyssey
+Movie Which Has Lowest vote_average  :  Transmorphers
 
 
 
@@ -1562,7 +1562,7 @@ data_corr = reader.corr()
 print("Correlation Between Revenue And Budget : ",data_corr.loc['revenue','budget'])
 ```
 
-    Correlation Between Revenue And Budget :  0.6885561524636727
+Correlation Between Revenue And Budget :  0.6885561524636727
 
 
 
