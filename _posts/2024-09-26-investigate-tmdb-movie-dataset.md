@@ -9,7 +9,8 @@ alt: "Analysis of TMDb Movie Data"
 
 
 # Investigate a Dataset (TMDb Movie Data)
-> The primary goal of the project is to go through the dataset and the general data analysis process using numpy, pandas and matplotlib. This contain four parts:
+
+The primary goal of the project is to go through the dataset and the general data analysis process using numpy, pandas and matplotlib. This contain four parts:
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -20,7 +21,8 @@ alt: "Analysis of TMDb Movie Data"
 ## Introduction
 
 ### Dataset
-- I chose the TMDb movie data set for data analysis. This data set contains information about 10,000 movies collected from The Movie Database (TMDb), including user ratings and revenue.I would like to find other intresting patterns in the dataset.
+
+I chose the TMDb movie data set for data analysis. This data set contains information about 10,000 movies collected from The Movie Database (TMDb), including user ratings and revenue.I would like to find other intresting patterns in the dataset.
 
  > **Contains:**
   - Total Rows = 10866
@@ -315,7 +317,8 @@ reader.tail(2)
 
 
 
->**Observation From The Dataset**
+**Observation From The Dataset**
+
 - The columns 'budget', 'revenue', 'budget_adj', 'revenue_adj' has not given.But for this dataset i will assume the currency is in US dollor.
 - The dataset contain lots of movies where the budget or revenue have a value of '0'.
 
@@ -516,7 +519,9 @@ print()
 
 
 ### Data Cleaning (Removing The Unused Information From The Dataset)
-> #### Information That We Need To Delete Or Modify
+
+#### Information That We Need To Delete Or Modify
+
 1. We need to remove duplicate rows from the dataset
 2. Changing format of release date into datetime format
 3. Remove the unused colums that are not needes in the analysis process.
@@ -573,8 +578,11 @@ reader['release_date'].head()
 
 
 **3. Remove the unused colums that are not needes in the analysis process**
+
 We can see that 21 columns in the dataset, We can drop the the colums which are not usable in the data analysis process.
-> Columns like: imdb_id,overview etc.<br>
+
+Columns like: imdb_id,overview etc.<br>
+
 The columns like imdb_id, homepage,tagline, overview, budget_adj and revenue_adj are not required for my analysis and I will drop these columns.
 
 
@@ -590,6 +598,7 @@ print("Afetr Removing Unused Columns (Rows,Columns) : ",reader.shape)
 
 
 **4. Drop theses rows which contain incorrect or inappropriate values.**
+
 As you can see in this database of movies there are lots of movies where the budget or revenue have a value of '0' which means that the values of those variables of those movies has not been recorded. Calculating the profits of these movies would lead to inappropriate results. I think this may be due to varying factors like the lack of information, or the movies that were never released. I have chosen to eradicate these values during the data cleaning phase.
 
 
@@ -837,8 +846,8 @@ reader['budget'] = reader['budget'].replace(0,np.NAN)
 find_minmax('budget')
 ```
 
-`Movie Which Has Highest budget :  The Warrior's Way`
-`Movie Which Has Lowest budget  :  Fear Clinic`
+    Movie Which Has Highest budget :  The Warrior's Way
+    Movie Which Has Lowest budget  :  Fear Clinic
 
 
 
@@ -988,8 +997,8 @@ sns.set_style("darkgrid")
 find_minmax('revenue')
 ```
 
-Movie Which Has Highest revenue :  Avatar
-Movie Which Has Lowest revenue  :  Wild Card
+    Movie Which Has Highest revenue :  Avatar
+    Movie Which Has Lowest revenue  :  Wild Card
 
 
 
@@ -1144,8 +1153,8 @@ reader['runtime'] = reader['runtime'].replace(0,np.NAN)
 find_minmax('runtime')
 ```
 
-Movie Which Has Highest runtime :  The Story of Film: An Odyssey
-Movie Which Has Lowest runtime  :  Fresh Guacamole
+    Movie Which Has Highest runtime :  The Story of Film: An Odyssey
+    Movie Which Has Lowest runtime  :  Fresh Guacamole
 
 
 
@@ -1301,8 +1310,8 @@ sns.set_style("darkgrid")
 find_minmax('vote_average')
 ```
 
-Movie Which Has Highest vote_average :  The Story of Film: An Odyssey
-Movie Which Has Lowest vote_average  :  Transmorphers
+    Movie Which Has Highest vote_average :  The Story of Film: An Odyssey
+    Movie Which Has Lowest vote_average  :  Transmorphers
 
 
 
@@ -1562,7 +1571,7 @@ data_corr = reader.corr()
 print("Correlation Between Revenue And Budget : ",data_corr.loc['revenue','budget'])
 ```
 
-Correlation Between Revenue And Budget :  0.6885561524636727
+    Correlation Between Revenue And Budget :  0.6885561524636727
 
 
 
@@ -2015,13 +2024,6 @@ popular_genre.loc['Crime'].plot(label = "Crime",color='c',ax = ax[2][2],legend=T
 ```
 
 
-
-
-    <AxesSubplot:>
-
-
-
-
     
 ![png](/assets/images/2025/output_73_1.png)
     
@@ -2308,6 +2310,7 @@ The correlation between revenue and runtime is **0.2378**. So runtime is not hig
 - Movies with higher budgets have shown a corresponding increase in the revenues.
 
 
-**Limitations** 
+**Limitations**
+
 - It's not 100 percent guaranteed solution that this formula is gonna work, But it shows us that we have high probability of making high profits if we had similar characteristics as such. If we release a movie with these characteristics, it gives people high expectations from this movie. This was just one example of an influantial factor that would lead to different results, there are many that have to be taken care of.
 - During the data cleaning process, I split the data seperated by '|' into lists for easy parsing during the exploration phase. This increases the time taken in calculating the result.
