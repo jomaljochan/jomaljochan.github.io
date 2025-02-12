@@ -12,14 +12,11 @@ alt: "Analysis of TMDb Movie Data"
 > The primary goal of the project is to go through the dataset and the general data analysis process using numpy, pandas and matplotlib. This contain four parts:
 
 ## Table of Contents
-<ul>
-<li><a href="intro">Introduction</a></li>
-<li><a href="wrangling">Data Wrangling</a></li>
-<li><a href="eda">Exploratory Data Analysis</a></li>
-<li><a href="conclusions">Conclusions</a></li>
-</ul>
+- [Introduction](#introduction)
+- [Data Wrangling](#data-wrangling)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Conclusions](#conclusions)
 
-<a id='intro'></a>
 ## Introduction
 
 ### Dataset
@@ -59,7 +56,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 ```
 
-<a id='wrangling'></a>
 ## Data Wrangling
 
 > After Observing the dataset and the questions related to this dataset for the analysis we will be keeping only relevent data and deleting the unused data.
@@ -609,7 +605,6 @@ print("Rows With Zero Values In The Revenue Column:",reader[(reader['revenue']==
 
 ##### Since now we have the columns, rows and format of the dataset in right way, its time to investigate the data for the questions asked. 
 
-<a id='eda'></a>
 ## Exploratory Data Analysis
 
 > **Tip**: Now that you've trimmed and cleaned your data, you're ready to move on to exploration. Compute statistics and create visualizations with the goal of addressing the research questions that you posed in the Introduction section. It is recommended that you be systematic with your approach. Look at one variable at a time, and then follow it up by looking at relationships between variables.
@@ -2300,7 +2295,6 @@ The correlation between revenue and vote average is **0.2069**. So vote average 
 
 The correlation between revenue and runtime is **0.2378**. So runtime is not highly related to the revenue.
 
-<a id='conclusions'></a>
 ## Conclusions
 
 > 
