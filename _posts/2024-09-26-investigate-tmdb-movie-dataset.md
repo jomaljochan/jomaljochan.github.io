@@ -13,10 +13,10 @@ alt: "Analysis of TMDb Movie Data"
 
 ## Table of Contents
 <ul>
-<li><a href="#intro">Introduction</a></li>
-<li><a href="#wrangling">Data Wrangling</a></li>
-<li><a href="#eda">Exploratory Data Analysis</a></li>
-<li><a href="#conclusions">Conclusions</a></li>
+<li><a href="intro">Introduction</a></li>
+<li><a href="wrangling">Data Wrangling</a></li>
+<li><a href="eda">Exploratory Data Analysis</a></li>
+<li><a href="conclusions">Conclusions</a></li>
 </ul>
 
 <a id='intro'></a>
@@ -25,7 +25,7 @@ alt: "Analysis of TMDb Movie Data"
 ### Dataset
 - I chose the TMDb movie data set for data analysis. This data set contains information about 10,000 movies collected from The Movie Database (TMDb), including user ratings and revenue.I would like to find other intresting patterns in the dataset.
 <br><br>
-> **Contain: **
+> ** Contain: **
   - Total Rows = 10866
   - Total Columns = 21
   - After Seeing the dataset we can say that some columns is contain null values
