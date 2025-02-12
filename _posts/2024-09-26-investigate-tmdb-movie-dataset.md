@@ -21,14 +21,14 @@ alt: "Analysis of TMDb Movie Data"
 
 ### Dataset
 - I chose the TMDb movie data set for data analysis. This data set contains information about 10,000 movies collected from The Movie Database (TMDb), including user ratings and revenue.I would like to find other intresting patterns in the dataset.
-<br><br>
-> ** Contain: **
+
+ > **Contains:**
   - Total Rows = 10866
   - Total Columns = 21
   - After Seeing the dataset we can say that some columns is contain null values
 
 ### Questions
-> 
+
 1.  Which year has the highest release of movies?
 2.  Which Movie Has The Highest Or Lowest Profit? Top 10 movies which earn highest profit?
 3.  Movie with Highest And Lowest Budget? 
@@ -58,7 +58,7 @@ import matplotlib.pyplot as plt
 
 ## Data Wrangling
 
-> After Observing the dataset and the questions related to this dataset for the analysis we will be keeping only relevent data and deleting the unused data.
+After Observing the dataset and the questions related to this dataset for the analysis we will be keeping only relevent data and deleting the unused data.
 
 ### General Properties
 
@@ -573,9 +573,9 @@ reader['release_date'].head()
 
 
 **3. Remove the unused colums that are not needes in the analysis process**
-> We can see that 21 columns in the dataset, We can drop the the colums which are not usable in the data analysis process.
-columns like: imdb_id,overview etc.<br>
-> The columns like imdb_id, homepage,tagline, overview, budget_adj and revenue_adj are not required for my analysis and I will drop these columns.
+We can see that 21 columns in the dataset, We can drop the the colums which are not usable in the data analysis process.
+> Columns like: imdb_id,overview etc.<br>
+The columns like imdb_id, homepage,tagline, overview, budget_adj and revenue_adj are not required for my analysis and I will drop these columns.
 
 
 ```python
@@ -590,7 +590,7 @@ print("Afetr Removing Unused Columns (Rows,Columns) : ",reader.shape)
 
 
 **4. Drop theses rows which contain incorrect or inappropriate values.**
-> As you can see in this database of movies there are lots of movies where the budget or revenue have a value of '0' which means that the values of those variables of those movies has not been recorded. Calculating the profits of these movies would lead to inappropriate results. I think this may be due to varying factors like the lack of information, or the movies that were never released. I have chosen to eradicate these values during the data cleaning phase.
+As you can see in this database of movies there are lots of movies where the budget or revenue have a value of '0' which means that the values of those variables of those movies has not been recorded. Calculating the profits of these movies would lead to inappropriate results. I think this may be due to varying factors like the lack of information, or the movies that were never released. I have chosen to eradicate these values during the data cleaning phase.
 
 
 ```python
@@ -644,7 +644,7 @@ sns.set_style("whitegrid")
     
 
 
-#### After Seeing the plot and the output we can conclude that year 2014 year has the highest release of movies (700) followed by year 2013 (659) and year 2015 (629).
+> **After Seeing the plot and the output we can conclude that year 2014 year has the highest release of movies (700) followed by year 2013 (659) and year 2015 (629).**
 
 ### Research Question 2 : Which Movie Has The Highest Or Lowest Profit?
 
@@ -793,9 +793,9 @@ find_minmax('Profit')
 
 
 
-> The first column shows the highest profit made by a movie and second column shows the highest in loss movie in this dataset.
+The first column shows the highest profit made by a movie and second column shows the highest in loss movie in this dataset.
 
->As we can see that **'Avatar'** movie Directed by James Cameron earn the highest profit in all, making over 2.5B in profit in this dataset.And the most in loss movie in this dataset is **The Warrior's Way**. Going in loss by more than 400M was directed by Singmoo Lee.
+As we can see that **'Avatar'** movie Directed by James Cameron earn the highest profit in all, making over 2.5B in profit in this dataset.And the most in loss movie in this dataset is **The Warrior's Way**. Going in loss by more than 400M was directed by Singmoo Lee.
 
 
 
@@ -1104,7 +1104,7 @@ find_minmax('revenue')
 
 
 
-> The first column shows the highest revenue made by a movie and second column shows the lowest revenue movie in this dataset. As we can see that **'Avatar'** movie Directed by James Cameron made the highest revenue in all, making over 2.78B revenue in this dataset. And the movie which made lowest revenue is **'Wild Card'** directed by Simon West.
+The first column shows the highest revenue made by a movie and second column shows the lowest revenue movie in this dataset. As we can see that **'Avatar'** movie Directed by James Cameron made the highest revenue in all, making over 2.78B revenue in this dataset. And the movie which made lowest revenue is **'Wild Card'** directed by Simon West.
 
 
 ```python
@@ -1260,11 +1260,11 @@ find_minmax('runtime')
 
 
 
-> So again the first column shows the runtime of the highest and second the lowest with column names as the index number.
+So again the first column shows the runtime of the highest and second the lowest with column names as the index number.
 
-> I have never heard a runtime of a movie so long, Runtime of 900 min, that's approx 15 hrs! So **'The Story of Film: An Odyssey'** movie has the highest runtime. This movie contain 6 or 7 parts that's why it is so long.
+I have never heard a runtime of a movie so long, Runtime of 900 min, that's approx 15 hrs! So **'The Story of Film: An Odyssey'** movie has the highest runtime. This movie contain 6 or 7 parts that's why it is so long.
 
-> The name of the movie with shortest runtime is **Fresh Guacamole**, runtime of just 2 min! Woah! I have never seen such a short movie in my lifetime.
+The name of the movie with shortest runtime is **Fresh Guacamole**, runtime of just 2 min! Woah! I have never seen such a short movie in my lifetime.
 
 
 ```python
@@ -1417,8 +1417,9 @@ find_minmax('vote_average')
 
 
 
-> The first column containt the movie with highest votes and second column contain the movie with lowest votes.<br>
-> As we can see that movie **'The Story of Film: An Odyssey'** has the maximum rating (92%), which was directed by Mark Cousins and movie with lowest user ratings is **'Transmorphers'** with 15% user ratings, which was directed by Leigh Scott.
+The first column containt the movie with highest votes and second column contain the movie with lowest votes.<br>
+
+As we can see that movie **'The Story of Film: An Odyssey'** has the maximum rating (92%), which was directed by Mark Cousins and movie with lowest user ratings is **'Transmorphers'** with 15% user ratings, which was directed by Leigh Scott.
 
 
 ```python
@@ -1472,7 +1473,7 @@ sns.set_style("whitegrid")
     
 
 
-> **According to the plot year 2002-03 he most profitable years And the profit was very low between the years 1960 and 1970.** 
+**According to the plot year 2002-03 he most profitable years And the profit was very low between the years 1960 and 1970.** 
 
 ### Research Question 8 : Which length movies most liked by the audiences according to their popularity?
 
@@ -1502,7 +1503,7 @@ sns.set_style("whitegrid")
     
 
 
-> **According to the plot we can say that movies in the range of 100-200 runtime are more popular than other runtime movies. Because it is boring to see the long duration movies.**  
+**According to the plot we can say that movies in the range of 100-200 runtime are more popular than other runtime movies. Because it is boring to see the long duration movies.**  
 
 ### Research Question 9: Average Runtime Of Movies From Year To Year?
 
@@ -1531,7 +1532,7 @@ sns.set_style("whitegrid")
     
 
 
-> **According to the plot movie duration is decreasing year to year and it's TRUE. Because at this time nobody want to watch the long duration movies because it is quite boring. That's why the average runtime duraion of the movies are arround 100 Minutes.** 
+**According to the plot movie duration is decreasing year to year and it's TRUE. Because at this time nobody want to watch the long duration movies because it is quite boring. That's why the average runtime duraion of the movies are arround 100 Minutes.** 
 
 ### Research Question 10: How Does The Revenue And Popularity differs Budget And Runtime? And How Does Popularity Depends On Profit?
 
@@ -1625,7 +1626,7 @@ print("Correlation Between Popularity And Profit : ",data_corr.loc['popularity',
 
 
 
-> **These Are Estimated Values They Can Be Differ.**
+**These Are Estimated Values They Can Be Differ.**
 - **1. Budget vs Revenue  :**  Budget and revenue both have **positive correlation(0.68)** between them. Means there is a good possibility that movies with higher investments result in better revenues.
 - **2. Profit Vs Budget  : **  Profit And Budget both have **positive correlation(0.53)** between them. Means there is a good possibility that movies with higher investments result in better Profit.
 - **3. Release Year Vs Vote Average : ** Release year and vote Average have **negative correlation(-0.11)**. Means that movie ratings(vote average) does not depends on the release year.
@@ -1698,7 +1699,7 @@ sns.set_style("darkgrid")
     
 
 
-> **According tp the plot we can say that movie which release in may or june month made the high revenue in comparison of other month release. Or it can be happened because of outliers.**
+**According tp the plot we can say that movie which release in may or june month made the high revenue in comparison of other month release. Or it can be happened because of outliers.**
 
 ### Research Question 12:  Which Genre Has The Highest Release Of Movies?
 
@@ -1759,7 +1760,7 @@ plt.tight_layout()
 
 
 
-> **According to the plot Drama(4761) genre has the highest release of movies followed by Comedy(3793) and Thriller(2908).**
+**According to the plot Drama(4761) genre has the highest release of movies followed by Comedy(3793) and Thriller(2908).**
 
 ### Research Question 13: Which genres are most popular from year to year?
 
@@ -2278,26 +2279,23 @@ A brief description of the above plots,
 **Plot 1: Budget vs Revenue**
 
 The revenues do increase slightly at higher levels but the number of movies with high budgets seem scarce. There is a good possibility that movies with higher investments result in better revenues.
-- Correlation = 0.68
+- **Correlation = 0.68**
 
-I can't find a relationship here. The revenues don't seem to change with higher vote average.
-
-**Plot 2: Popularity vs Revenue **
+**Plot 2: Popularity vs Revenue**
 
 The revenue seems to be increasing with popularity. We can say that if the popularity of movie is high then the revenue of the movie may be high.
-- Correlation = 0.62
+- **Correlation = 0.62**
 
-**Plot 3: Vote Average vs Revenue **
+**Plot 3: Vote Average vs Revenue**
 
 The correlation between revenue and vote average is **0.2069**. So vote average is not highly related to the revenue.
 
-**Plot 4: Runtime vs Revenue **
+**Plot 4: Runtime vs Revenue**
 
 The correlation between revenue and runtime is **0.2378**. So runtime is not highly related to the revenue.
 
 ## Conclusions
 
-> 
 - Drama is the most popular genre, following by action, comedy and thriller.
 - Drame, Comedy, Thriller and Action are four most-made genres. 
 - Maximum Number  Of Movies Release In year 2014.
@@ -2310,6 +2308,6 @@ The correlation between revenue and runtime is **0.2378**. So runtime is not hig
 - Movies with higher budgets have shown a corresponding increase in the revenues.
 
 
->**Limitations** 
+**Limitations** 
 - It's not 100 percent guaranteed solution that this formula is gonna work, But it shows us that we have high probability of making high profits if we had similar characteristics as such. If we release a movie with these characteristics, it gives people high expectations from this movie. This was just one example of an influantial factor that would lead to different results, there are many that have to be taken care of.
 - During the data cleaning process, I split the data seperated by '|' into lists for easy parsing during the exploration phase. This increases the time taken in calculating the result.
