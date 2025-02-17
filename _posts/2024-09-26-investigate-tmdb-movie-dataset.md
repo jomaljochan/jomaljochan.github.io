@@ -10,13 +10,11 @@ alt: "Analysis of TMDb Movie Data"
 
 # Investigate a Dataset (TMDb Movie Data)
 
-The primary goal of the project is to go through the dataset and the general data analysis process using numpy, pandas and matplotlib. This contain four parts:
+The primary goal of the project is to go through the dataset and the general data analysis process using numpy, pandas and matplotlib.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Data Wrangling](#data-wrangling)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Conclusions](#conclusions)
+## **Table of Contents**
+* TOC
+{:toc}
 
 ## Introduction
 

@@ -9,6 +9,10 @@ alt: "Covid Impact Analysis"
 
 # Covid Impact Analysis
 
+## **Table of Contents**
+* TOC
+{:toc}
+
 ## Story
 
 The impact of covid 19 can ve see

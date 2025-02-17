@@ -9,6 +9,11 @@ alt: "Brand Value Analysis"
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+## **Table of Contents**
+* TOC
+{:toc}
+
+
 ## **Problem Statement**
 
 Our client is a distributing platform for personal care brands. Our team is in the process of reviewing
@@ -23,7 +28,7 @@ points on your 3 brands.
 | Week on week customer base growth      | 5%      | 5%      | 8%      |
 | Average basket size (revenue/order)    | £22     | £18     | £12     |
 | Weekly orders per customer             | 1       | 1.1     | 1.3     |
-| Curve’s service fee %                  | 20%     | 25%     | 27%     |
+| Client’s service fee %                  | 20%     | 25%     | 27%     |
 | Client's Average cost per distribution | £4      | £3      | £3      |
 
 
@@ -55,10 +60,10 @@ recommendations and the above data?
 
 ### **Objective**
 
-**Evaluate the value of three personal care brands for a Marketing Firm and recommend service fee adjustments.**
+**Evaluate the value of three personal care brands for a Marketing Firm and recommend service fee adjustments**
 
 
-## Executive Summary
+## **Executive Summary**
 
 ### Most Valuable Brand:
 - **Brand 3** is the most valuable brand as it has the highest Lifetime Value over the next year

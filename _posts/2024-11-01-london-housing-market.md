@@ -9,6 +9,10 @@ alt: "London Housing Market"
 
 # Covid Impact Analysis
 
+## **Table of Contents**
+* TOC
+{:toc}
+
 ## Story
 
 London housing prices have been rising sharply since the last few years. But does this trend

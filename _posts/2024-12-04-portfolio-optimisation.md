@@ -9,6 +9,10 @@ alt: "Portfolio Optimisation"
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+## **Table of Contents**
+* TOC
+{:toc}
+
 ## The Real-World Problem  
 
 The global inflation rate on average has been rising ever since the 2020 pandemic with a forecast
