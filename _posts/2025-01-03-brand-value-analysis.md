@@ -7,7 +7,9 @@ tags: [datascience, analytics, marketing, branding]
 alt: "Brand Value Analysis"
 ---
 
-# **Problem Statement**
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+## **Problem Statement**
 
 Our client is a distributing platform for personal care brands. Our team is in the process of reviewing
 the client's brand partner base as you revisit their delivery partner fee strategy. We refer to the below data
@@ -25,7 +27,7 @@ points on your 3 brands.
 | Client's Average cost per distribution | £4      | £3      | £3      |
 
 
-## Definitions
+### **Definitions**
 
 - “A customer” refers to a client's service user who has made at least one order in that week
 - In this exercise, the client’s service fee refers to the percentage of the retail price of the
@@ -37,7 +39,7 @@ brand
 partners per delivery. It is not an additional charge to customers on top of the basket
 The Task
 
-## Task Outline
+### **Task Outline**
 
 1. Use the above data to determine which of these brands is the most valuable to the client.
 There is no one correct way to think about this problem, so be sure to explain your
@@ -51,18 +53,18 @@ any changes to the current service fees in order to optimise for factors such as
 and ROI? What arguments do you expect each of the 3 brands to put forward, given your
 recommendations and the above data?
 
-## **Objective:**
+### **Objective**
 
 **Evaluate the value of three personal care brands for a Marketing Firm and recommend service fee adjustments.**
 
 
-# Executive Summary
+## Executive Summary
 
-## Most Valuable Brand:
+### Most Valuable Brand:
 - **Brand 3** is the most valuable brand as it has the highest Lifetime Value over the next year
 - Although the Operating Profit from Brand 2 is higher than that of Brand 3, the much higher growth rate along with the high service fee makes Brand 3 almost 3x the Lifetime Value of Brand 2
 
-## Potential impactful factors:
+### Potential impactful factors:
 **1. Data Completeness & Confidence**
    - **Variance & Confidence Metrics**: Lack of variance data limits confidence, especially in growth rate estimates.
    - **Customer Distribution & Loyalty**: Limited data on customer overlap and loyalty can lead to unpredictable sales cannibalisation.
@@ -75,31 +77,40 @@ recommendations and the above data?
 **3. Operational Assumptions**
    - **Assumed Weekly Operating Cycle**: Simplified weekly cycle may not align with real 30–60 day retail cash flow cycles, impacting LTV accuracy.
 
-## Fee Recommendation & negotiations:
+### Fee Recommendation & negotiations:
 - Primary action is to increase Brand 3 Service Fee to 30% : As growth is high, churn will be nullified.
 - Brand 1 & 2 service fee to be increased to 21% and 26% respectively to test impact
 - To review all brands operating margins & Lifetime value over next 3 & 6 month to review impact.
 
-# Methodology
-## Assumptions:
+## **Methodology**
+
+### **Assumptions**
+
 - The client, being a distributor platform, we assume our main overarching **KPI** we are optimising for is the client's **Total Operating Profit**.
 - Given the high service fee charged, we assume that most of the sales for the brands come through the client & thus **The client has relatively high negotiating power**.
 - **Fixed costs are not considered** in this analysis and the calculated revenues are costs and assumed to be the operating revenue and operating costs respectively.
 - As all the metrics given are average values with no variance information, we **ignore seasonality in demand** and assume an even distribution of orders across all weeks. Accordingly, we also assume the **growth rate does not have fluctuations across time**.
 - For the calculation of LTV, we assume **net cash flow** from both revenues & costs to be at the **end of each week**.
 - As a customer is someone with atleast 1 order that week, we assume:
+
 $$
 \text{Net first week cash flow} \propto \text{Customer base in that week}
 $$
+
 - The discount rate is assumed to be 10%
 
-## Thought Process:
+## **Thought Process**
+
 For each brand,
+
+
 $$
 \text{Value of brand to the client} = \text{Total present value of future net cash flow related to the brand}
 $$
 
+
 As the growth rate of customer base is the same as the growth rate of net cash flow at the end of each period(week), we can write:
+
 
 $$
 \text{Value of brand} = \sum_{t=1}^{n} \frac{\text{CF} \times (1 + g)^t}{(1 + d)^t}
@@ -113,7 +124,9 @@ where\
 \ d = \text{Weekly Discount rate}
 $$
 
+
 As this is similar to calculating the **Present Value of a Growing Annuity**, we use the relevant formula to simplify the above:
+
 
 $$
 \text{Value of brand} = \text{CF} \times \frac{1 - \left(\frac{1 + g}{1 + d}\right)^n}{d - g}
@@ -130,23 +143,30 @@ $$
 
 **Net first month cash flow** is the **Total Operating Profit at the end of the first month**. Thus,
 
+
 $$
 \text{CF(Net first month cash flow)} = \text{Operating Profit per brand}
 $$
+
+
 $$
 \text{CF} = \text{Brand service fee received} − \text{Delivery Costs}
 $$
+
 
 $$
 \text{CF} = \text{Average Weekly Customers} \times \text{Weekly Orders Per Customer} \times \left(\text{(Average Basket Size} \times \text{Service Fee Percentage)} - \text{Average Cost per Distribution}\right)
 $$
 
-## Aim:
-According to our assumptions, the **Operating Profit** and thus the **Value of Brand to the client** is a function of **Average Weekly Customers** across time & **Service Fee Percentage**
 
-Our goal is to optimise for the **Operating Profit**, i.e, optimise for the **Average Weekly Customers** across time
+ **Aim** According to our assumptions, the **Operating Profit** and thus the **Value of Brand to the client** is a function of **Average Weekly Customers** across time & **Service Fee Percentage**
 
-## Metrics Used:
+
+ Our goal is to optimise for the **Operating Profit**, i.e, optimise for the **Average Weekly Customers** across time
+
+
+## **Metrics Used**
+
 - Average Weekly Customers
 - Customer Growth Rate
 - Average Basket Size
@@ -183,7 +203,7 @@ data = {
 df = pd.DataFrame(data)
 ```
 
-## Data Summary:
+### **Data Summary**
 
 
 ```python
@@ -401,8 +421,9 @@ correlation_matrix
 
 
 
-# Brand Analysis
-## Lifetime Value of Brand Partnerships
+## **Brand Analysis**
+
+### **Lifetime Value of Brand Partnerships**
 
 Using the thought process outlined earlier, we can calculate the Lifetime Value of each brand.
 
@@ -594,9 +615,10 @@ plt.show()
     
 
 
-# Additional Considerations
+## **Additional Considerations**
 
-## Potential Impactful Factors
+### **Potential Impactful Factors**
+
 - **Lack of variance metrics:** We do not have the variance for any of the metrics. This information could add value to the confidence of our observations significantly and impact the results in some cases - particularly with the growth rate.
 - **Customer distribution & loyalty:** We do not know if there is a significant customer overlap between the different brands. Lack of information about customer loyalty means that we cannot know if there will be significant cannibalisation of sales over time.
 - **Fixed costs:** As the only costs given are variable, we ignore fixed costs - in the real world, the fixed costs should be taken into consideration.
@@ -604,9 +626,10 @@ plt.show()
 - **Marketing mix uncertainty:** In this scenario, as we do not know how saturated the market is, organic vs paid customer base, new vs repeat customer base, we cannot be sure about the stability of the given growth rate in the real world.
 - **Operating cycle differences:** Operating cycle for a retail distribution platform tends to be much longer than a week in terms of cash flow, i.e, 30-60 days. We have assumed weekly operating cycle for the sake of simplicity of calculation. Variations in the operating cycle across brands could potentially change the LTV of said brands although not by much.
 
-# Service Fee Recommendations
+## **Service Fee Recommendations**
 
-## Assumptions:
+### **Assumptions**
+
 From our earlier formula:
 
 $$
@@ -737,23 +760,19 @@ optimization_results = get_optimal_fees(simulation_results)
     
 
 
-## Observations:
+### **Observations**
 - Brand 3 has higher growth, although any service fee increase will increase the pricing by Brand accordingly, the churn will be nullified by the  up to 30 % service fee
 - Brand 1 & 2 have relatively lower value from increases in Lifetime Value with increase in service fee due to the impact of low growth.
 
-## Suggested Changes:
+### **Suggested Changes**
 - Primary action is to increase Brand 3 Service Fee to 30% : As growth is high, churn will be nullified.
 - Brand 1 & 2 service fee to be increased to 21% and 26% respectively to test impact
 - To review all brands operating margins & Lifetime value over next 3 & 6 month to review impact.
 
-## Expected Brand Responses:
+### **Expected Brand Responses**
 - The expected brand response will be that they have to increase their own costs to cover the increase in service fee
 - This may cause them to assume the customer base will churn uncontrollably
 - To address this:
     - For Brand 3, as we are confident on minimal churn we can keep the 30% margin with our negotiating power
     - For Brands 1 & 2, as we are less confident, post negotiations, we can settle for a lesser
 
-
-```python
-
-```
