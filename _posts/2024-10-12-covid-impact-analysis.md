@@ -1,8 +1,8 @@
 ---
 title: Covid Impact Analysis
 date: 2024-10-12 08:00:00 - 0000
-categories: [Data Science, Analytics, AI, Marketing, Branding]
-tags: [datascience, analytics, marketing, branding]
+categories: [Data Science, Analytics, Data Visualisation]
+tags: [healthcare, datascience, analytics, datavisualisation, covid]
 #image: /path/to/image
 alt: "Covid Impact Analysis"
 ---

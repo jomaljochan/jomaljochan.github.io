@@ -1,6 +1,6 @@
 ---
 title: London Housing Market
-date: 2024-10-12 08:00:00 - 0000
+date: 2024-11-01 08:00:00 - 0000
 categories: [London, Real Estate, Data Science, Analytics]
 tags: [london, realestate, datascience, analytics]
 #image: /path/to/image
