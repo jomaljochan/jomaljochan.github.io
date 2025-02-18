@@ -17,8 +17,8 @@ alt: "Brand Value Analysis"
 ## **Problem Statement**
 
 Our client is a distributing platform for personal care brands. Our team is in the process of reviewing
-the client's brand partner base as you revisit their delivery partner fee strategy. We refer to the below data
-points on your 3 brands.
+the client's brand partner base as we revisit their delivery partner fee strategy. We refer to the below data
+points on our 3 brands.
 
 | Metric                                 | Brand 1 | Brand 2 | Brand 3 |
 |----------------------------------------|---------|---------|---------|
@@ -104,7 +104,7 @@ $$
 
 - The discount rate is assumed to be 10%
 
-## **Thought Process**
+### **Thought Process**
 
 For each brand,
 
@@ -170,7 +170,7 @@ $$
  Our goal is to optimise for the **Operating Profit**, i.e, optimise for the **Average Weekly Customers** across time
 
 
-## **Metrics Used**
+### **Metrics Used**
 
 - Average Weekly Customers
 - Customer Growth Rate
@@ -208,7 +208,7 @@ data = {
 df = pd.DataFrame(data)
 ```
 
-### **Data Summary**
+## **Data Summary**
 
 
 ```python
